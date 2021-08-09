@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="481.0" prefWidth="352.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginFormController">
+   <children>
+      <Label layoutX="106.0" layoutY="26.0" text="Login to To-Do-List">
+         <font>
+            <Font name="Times New Roman" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="75.0" text="User Name">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="171.0" text="Password">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="54.0" layoutY="112.0" prefHeight="41.0" prefWidth="252.0" promptText="Admin" />
+      <PasswordField layoutX="54.0" layoutY="206.0" prefHeight="41.0" prefWidth="252.0" />
+      <Button layoutX="95.0" layoutY="266.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="163.0" style="-fx-background-color: Blue;" text="Login" textFill="WHITE" />
+      <Label layoutX="122.0" layoutY="309.0" text="Create New Account" textFill="#0400e8" underline="true" />
+      <Label layoutX="103.0" layoutY="459.0" text="Design by Sumedha Lakmal" />
+   </children>
+</AnchorPane>
